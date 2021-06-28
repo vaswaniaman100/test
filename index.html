@@ -1,0 +1,1047 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <link rel="stylesheet" href="down.css">
+    <link rel="stylesheet" href="index.css">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <style>
+
+    </style>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body style="margin: 0;">
+    <div>
+        <div style="background-color: #f1f1f1;position: fixed; width: 100%;top:0;z-index:1;">
+            <center>
+                <div class="topnav" id="myTopnav">
+                    <div style="float: left;">
+                        <a href="#" class="active"><img src="/image/logo.png" style=" width: 120px;height: 30px;"
+                                alt=""></a>
+                    </div>
+                    <div style="float: none;  height: 55px;" class="middlenav">
+                        <center style="float: none;  height: 55px;padding-top: 15px;">
+
+                            <a style="display: none;"></a>
+                            <div style="float: none;display: inline-block; ">
+                                <a class="catebut" style="float: none;" href="#">Categories</a>
+                                <div class="categories">
+
+                                    <table style="border-spacing: 0;display: table;" class="dropdown">
+                                        <thead>
+                                            <tr>
+                                                <th>
+                                                    <h3>Quizzes</h3>
+                                                </th>
+                                                <th>
+                                                    <h3>Stories</h3>
+                                                </th>
+                                            </tr>
+                                        </thead>
+                                        <tbody>
+                                            <tr>
+                                                <td>All</td>
+                                                <td>All</td>
+                                            </tr>
+                                            <tr>
+                                                <td>Top</td>
+                                                <td>Horror</td>
+                                            </tr>
+                                            <tr>
+                                                <td>Users Quizzes</td>
+                                                <td>Action</td>
+                                            </tr>
+                                            <tr>
+                                                <td>Women</td>
+                                                <td>Poetry</td>
+                                            </tr>
+                                            <tr>
+                                                <td>Couples</td>
+                                                <td>Fantasy</td>
+                                            </tr>
+                                            <tr>
+                                                <td>Trivia</td>
+                                                <td>Romance</td>
+                                            </tr>
+                                            <tr>
+                                                <td>Sport</td>
+                                                <td>Adventure</td>
+                                            </tr>
+                                            <tr>
+                                                <td>Music</td>
+                                                <td>Humor</td>
+                                            </tr>
+                                        </tbody>
+                                        <thead>
+                                            <tr>
+                                                <th>
+                                                    <h3>Popular Tags</h3>
+                                                </th>
+                                                <th></th>
+                                            </tr>
+                                        </thead>
+                                        <tbody>
+                                            <tr>
+                                                <td>Girls</td>
+                                                <td></td>
+                                            </tr>
+                                            <tr>
+                                                <td>Freinds</td>
+                                                <td></td>
+                                            </tr>
+                                            <tr>
+                                                <td>Fun</td>
+                                                <td></td>
+                                            </tr>
+                                            <tr>
+                                                <td>Love</td>
+                                                <td></td>
+                                            </tr>
+                                            <tr>
+                                                <td>Lifestyle</td>
+                                                <td></td>
+                                            </tr>
+                                            <tr>
+                                                <td>Food</td>
+                                                <td></td>
+                                            </tr>
+                                        </tbody>
+                                    </table>
+
+                                </div>
+
+                            </div>
+                            <div style="float: none;display: inline-block; ">
+                                <a class="catebut" style="float: none;" href="#">Create</a>
+                                <div class="categories">
+                                    <div style="width: 160px;" class="content">
+                                        <br>
+                                        <a style="padding: 4px; color: black;" href="#">Create Quiz</a>
+                                        <a style="padding: 4px; color: black;" href="#">Create Story</a>
+                                        <a style="padding: 4px; color: black;" href="#">How It Works</a>
+                                        <a style="padding: 4px; color: black;" href="#">FAQ</a>
+                                        <a style="padding: 4px; color: black;" href="#">Contact</a>
+
+                                    </div>
+
+                                </div>
+
+                            </div>
+
+
+                            <a style="float: none;" href="#">Waiting room</a>
+                            <a style="float: none;" href="#">Our story</a>
+                            <a style="float: none;" href="#"><img src="/image/search.PNG" height="17px" alt=""></a>
+
+                            <a style="float: right;padding-top: 0;" href="#">Login</a>
+                            <a style="float: right;padding-top: 0; font-weight: bold;" href="#">Sign up</a>
+                            <a class="icon" style="position: absolute; right:0; top:0;background-color: #f1f1f1;">
+                                <button href="#" onclick="myFunction()"
+                                    style="display: block;position: relative ;padding: 9px 10px;">
+                                    <span
+                                        style="margin-top: 2px; background-color: grey; display: block; width: 20px;height: 2px;"></span>
+                                    <span
+                                        style="margin-top: 2px; background-color: grey; display: block; width: 20px;height: 2px;"></span>
+                                    <span
+                                        style="margin-top: 2px; background-color: grey; display: block; width: 20px;height: 2px;"></span>
+                                </button>
+                            </a>
+                    </div>
+            </center>
+
+        </div>
+
+        <!--toggle button-->
+
+        <!-- end toggle button-->
+    </div>
+
+
+
+
+    <div style="text-align: center; position: absolute;top:55px; width:100%; text-decoration: none; background-color: #f1f1f1;"
+        class="drop" id="drop">
+
+        <div style="float: none;display:block;padding: 5px; ">
+
+            <a class="catebut" style="font-size: 17px ;float: none; text-decoration: none;color: #777;"
+                href="#">Categories</a>
+            <div class="categories">
+
+                <table style="border-spacing: 0;display: table;" class="dropdown">
+                    <thead>
+                        <tr>
+                            <th>
+                                <h3>Quizzes</h3>
+                            </th>
+                            <th>
+                                <h3>Stories</h3>
+                            </th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>All</td>
+                            <td>All</td>
+                        </tr>
+                        <tr>
+                            <td>Top</td>
+                            <td>Horror</td>
+                        </tr>
+                        <tr>
+                            <td>Users Quizzes</td>
+                            <td>Action</td>
+                        </tr>
+                        <tr>
+                            <td>Women</td>
+                            <td>Poetry</td>
+                        </tr>
+                        <tr>
+                            <td>Couples</td>
+                            <td>Fantasy</td>
+                        </tr>
+                        <tr>
+                            <td>Trivia</td>
+                            <td>Romance</td>
+                        </tr>
+                        <tr>
+                            <td>Sport</td>
+                            <td>Adventure</td>
+                        </tr>
+                        <tr>
+                            <td>Music</td>
+                            <td>Humor</td>
+                        </tr>
+                    </tbody>
+                    <thead>
+                        <tr>
+                            <th>
+                                <h3>Popular Tags</h3>
+                            </th>
+                            <th></th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>Girls</td>
+                            <td></td>
+                        </tr>
+                        <tr>
+                            <td>Freinds</td>
+                            <td></td>
+                        </tr>
+                        <tr>
+                            <td>Fun</td>
+                            <td></td>
+                        </tr>
+                        <tr>
+                            <td>Love</td>
+                            <td></td>
+                        </tr>
+                        <tr>
+                            <td>Lifestyle</td>
+                            <td></td>
+                        </tr>
+                        <tr>
+                            <td>Food</td>
+                            <td></td>
+                        </tr>
+                    </tbody>
+                </table>
+
+            </div>
+
+        </div>
+        <div style=" float: none;display:block; padding: 5px; ">
+            <a class="catebut" style="float: none;text-decoration: none; color: #777;" href="#">Create</a>
+            <div class="categories">
+                <div style="width: 450px;" class="content">
+                    <br>
+                    <a style="text-decoration: none; font-size: 17px; padding: 8px; color: black;" href="#">Create
+                        Quiz</a><br>
+                    <a style="text-decoration: none; font-size: 17px; padding: 8px; color: black;" href="#">Create
+                        Story</a><br>
+                    <a style="text-decoration: none; font-size: 17px; padding: 8px; color: black;" href="#">How It
+                        Works</a><br>
+                    <a style="text-decoration: none; font-size: 17px; padding: 8px; color: black;" href="#">FAQ</a><br>
+                    <a style="text-decoration: none; font-size: 17px; padding: 8px; color: black;"
+                        href="#">Contact</a><br>
+
+                </div>
+
+            </div>
+
+        </div>
+        <a style="font-size: 17px; padding: 5px; text-decoration: none;color: #777;display: block;" href="#news">Waiting
+            room</a>
+        <a style="font-size: 17px; padding: 5px; text-decoration: none;color: #777;display: block;" href="#contact">Our
+            story</a>
+        <a style="float: none;" href="#"><img src="/image/search.PNG" height="17px" alt=""></a>
+        <br><br>
+        <a style=" font-weight: bold; font-size: 17px; padding: 5px; text-decoration: none;color: #777;display: block;"
+            href="#news">Sign up</a>
+        <a style="font-size: 17px; padding: 5px; text-decoration: none;color: #777;display: block;"
+            href="#contact">Login</a>
+
+    </div>
+    </center>
+    </div>
+
+    <br><br><br>
+    
+
+
+
+
+
+
+
+
+
+    <div class="mid">
+        <center>
+            <div class="topdiv">
+                <div class="left">
+                    <h1>Quizzes For Women</h1>
+                    <div class="img">
+                        <div class="leftimg">
+                            <div style="position: relative;">
+                                <img src="/image/1.jpg" style="position: relative;  width: 100%;">
+                                <div class="quizlabel">
+                                    Quiz
+                                </div>
+                                <div class="month">
+                                    1 month ago
+                                </div>
+                            </div>
+                            <div>
+                                <h3>What is my ancestor</h3>
+                            </div>
+                            <div>
+                                <h4 style="margin-left: 40px; margin-right: 40px; color: grey;">
+                                    What is my aesthetic? Answer now and our aesthetic finder will tell you whether
+                                    you're glam, spoo...
+                                </h4>
+                            </div>
+                            <div style="display: flex; background-color:rgb(246 246 246); padding : 4px; ">
+                                <div style="flex: 25%; color: grey;">
+                                    <img src="image/list.PNG" height="15px" alt=""> 29 &nbsp;
+
+                                </div>
+                                <div style="flex: 25%; color: grey;">
+                                    <img src="image/view.PNG" height="15px" alt=""> 1970705 &nbsp;
+
+                                </div>
+                                <div style="flex: 25%; color: grey;">
+                                    <img src="image/thumb.PNG" height="15px" alt=""> 2000 &nbsp;
+
+                                </div>
+                                <div style="flex: 25%; color: grey;">
+                                    <img src="image/user.PNG" height="15px" alt=""> 29 &nbsp;
+
+                                </div>
+                            </div>
+
+                        </div>
+
+
+                        <div class="rightimg">
+                            <div style="position: relative;">
+                                <img src="/image/1.jpg" style="position: relative;  width: 100%;">
+                                <div class="quizlabel">
+                                    Quiz
+                                </div>
+                                <div class="month">
+                                    1 month ago
+                                </div>
+                            </div>
+                            <div>
+                                <h3>What is my ancestor</h3>
+                            </div>
+                            <div>
+                                <h4 style="margin-left: 40px; margin-right: 40px; color: grey;">
+                                    What is my aesthetic? Answer now and our aesthetic finder will tell you whether
+                                    you're glam, spoo...
+                                </h4>
+                            </div>
+                            <div style="display: flex; background-color:rgb(246 246 246); padding : 4px; ">
+                                <div style="flex: 25%; color: grey;">
+                                    <img src="image/list.PNG" height="15px" alt=""> 29 &nbsp;
+
+                                </div>
+                                <div style="flex: 25%; color: grey;">
+                                    <img src="image/view.PNG" height="15px" alt=""> 1970705 &nbsp;
+
+                                </div>
+                                <div style="flex: 25%; color: grey;">
+                                    <img src="image/thumb.PNG" height="15px" alt=""> 2000 &nbsp;
+
+                                </div>
+                                <div style="flex: 25%; color: grey;">
+                                    <img src="image/user.PNG" height="15px" alt=""> 29 &nbsp;
+
+                                </div>
+                            </div>
+                        </div>
+                        <br>
+                    </div>
+                    <div class="img">
+                        <div class="leftimg">
+                            <div style="position: relative;">
+                                <img src="/image/1.jpg" style="position: relative;  width: 100%;">
+                                <div class="quizlabel">
+                                    Quiz
+                                </div>
+                                <div class="month">
+                                    1 month ago
+                                </div>
+                            </div>
+                            <div>
+                                <h3>What is my ancestor</h3>
+                            </div>
+                            <div>
+                                <h4 style="margin-left: 40px; margin-right: 40px; color: grey;">
+                                    What is my aesthetic? Answer now and our aesthetic finder will tell you whether
+                                    you're glam, spoo...
+                                </h4>
+                            </div>
+                            <div style="display: flex; background-color:rgb(246 246 246); padding : 4px; ">
+                                <div style="flex: 25%; color: grey;">
+                                    <img src="image/list.PNG" height="15px" alt=""> 29 &nbsp;
+
+                                </div>
+                                <div style="flex: 25%; color: grey;">
+                                    <img src="image/view.PNG" height="15px" alt=""> 1970705 &nbsp;
+
+                                </div>
+                                <div style="flex: 25%; color: grey;">
+                                    <img src="image/thumb.PNG" height="15px" alt=""> 2000 &nbsp;
+
+                                </div>
+                                <div style="flex: 25%; color: grey;">
+                                    <img src="image/user.PNG" height="15px" alt=""> 29 &nbsp;
+
+                                </div>
+                            </div>
+
+                        </div>
+
+
+                        <div class="rightimg">
+                            <div style="position: relative;">
+                                <img src="/image/1.jpg" style="position: relative;  width: 100%;">
+                                <div class="quizlabel">
+                                    Quiz
+                                </div>
+                                <div class="month">
+                                    1 month ago
+                                </div>
+                            </div>
+                            <div>
+                                <h3>What is my ancestor</h3>
+                            </div>
+                            <div>
+                                <h4 style="margin-left: 40px; margin-right: 40px; color: grey;">
+                                    What is my aesthetic? Answer now and our aesthetic finder will tell you whether
+                                    you're glam, spoo...
+                                </h4>
+                            </div>
+                            <div style="display: flex; background-color:rgb(246 246 246); padding : 4px; ">
+                                <div style="flex: 25%; color: grey;">
+                                    <img src="image/list.PNG" height="15px" alt=""> 29 &nbsp;
+
+                                </div>
+                                <div style="flex: 25%; color: grey;">
+                                    <img src="image/view.PNG" height="15px" alt=""> 1970705 &nbsp;
+
+                                </div>
+                                <div style="flex: 25%; color: grey;">
+                                    <img src="image/thumb.PNG" height="15px" alt=""> 2000 &nbsp;
+
+                                </div>
+                                <div style="flex: 25%; color: grey;">
+                                    <img src="image/user.PNG" height="15px" alt=""> 29 &nbsp;
+
+                                </div>
+                            </div>
+                        </div>
+                        <br>
+                    </div>
+                    <div class="img">
+                        <div class="leftimg">
+                            <div style="position: relative;">
+                                <img src="/image/1.jpg" style="position: relative;  width: 100%;">
+                                <div class="quizlabel">
+                                    Quiz
+                                </div>
+                                <div class="month">
+                                    1 month ago
+                                </div>
+                            </div>
+                            <div>
+                                <h3>What is my ancestor</h3>
+                            </div>
+                            <div>
+                                <h4 style="margin-left: 40px; margin-right: 40px; color: grey;">
+                                    What is my aesthetic? Answer now and our aesthetic finder will tell you whether
+                                    you're glam, spoo...
+                                </h4>
+                            </div>
+                            <div style="display: flex; background-color:rgb(246 246 246); padding : 4px; ">
+                                <div style="flex: 25%; color: grey;">
+                                    <img src="image/list.PNG" height="15px" alt=""> 29 &nbsp;
+
+                                </div>
+                                <div style="flex: 25%; color: grey;">
+                                    <img src="image/view.PNG" height="15px" alt=""> 1970705 &nbsp;
+
+                                </div>
+                                <div style="flex: 25%; color: grey;">
+                                    <img src="image/thumb.PNG" height="15px" alt=""> 2000 &nbsp;
+
+                                </div>
+                                <div style="flex: 25%; color: grey;">
+                                    <img src="image/user.PNG" height="15px" alt=""> 29 &nbsp;
+
+                                </div>
+                            </div>
+
+                        </div>
+
+
+                        <div class="rightimg">
+                            <div style="position: relative;">
+                                <img src="/image/1.jpg" style="position: relative;  width: 100%;">
+                                <div class="quizlabel">
+                                    Quiz
+                                </div>
+                                <div class="month">
+                                    1 month ago
+                                </div>
+                            </div>
+                            <div>
+                                <h3>What is my ancestor</h3>
+                            </div>
+                            <div>
+                                <h4 style="margin-left: 40px; margin-right: 40px; color: grey;">
+                                    What is my aesthetic? Answer now and our aesthetic finder will tell you whether
+                                    you're glam, spoo...
+                                </h4>
+                            </div>
+                            <div style="display: flex; background-color:rgb(246 246 246); padding : 4px; ">
+                                <div style="flex: 25%; color: grey;">
+                                    <img src="image/list.PNG" height="15px" alt=""> 29 &nbsp;
+
+                                </div>
+                                <div style="flex: 25%; color: grey;">
+                                    <img src="image/view.PNG" height="15px" alt=""> 1970705 &nbsp;
+
+                                </div>
+                                <div style="flex: 25%; color: grey;">
+                                    <img src="image/thumb.PNG" height="15px" alt=""> 2000 &nbsp;
+
+                                </div>
+                                <div style="flex: 25%; color: grey;">
+                                    <img src="image/user.PNG" height="15px" alt=""> 29 &nbsp;
+
+                                </div>
+                            </div>
+                        </div>
+                        <br>
+                    </div>
+                    <div class="img">
+                        <div class="leftimg">
+                            <div style="position: relative;">
+                                <img src="/image/1.jpg" style="position: relative;  width: 100%;">
+                                <div class="quizlabel">
+                                    Quiz
+                                </div>
+                                <div class="month">
+                                    1 month ago
+                                </div>
+                            </div>
+                            <div>
+                                <h3>What is my ancestor</h3>
+                            </div>
+                            <div>
+                                <h4 style="margin-left: 40px; margin-right: 40px; color: grey;">
+                                    What is my aesthetic? Answer now and our aesthetic finder will tell you whether
+                                    you're glam, spoo...
+                                </h4>
+                            </div>
+                            <div style="display: flex; background-color:rgb(246 246 246); padding : 4px; ">
+                                <div style="flex: 25%; color: grey;">
+                                    <img src="image/list.PNG" height="15px" alt=""> 29 &nbsp;
+
+                                </div>
+                                <div style="flex: 25%; color: grey;">
+                                    <img src="image/view.PNG" height="15px" alt=""> 1970705 &nbsp;
+
+                                </div>
+                                <div style="flex: 25%; color: grey;">
+                                    <img src="image/thumb.PNG" height="15px" alt=""> 2000 &nbsp;
+
+                                </div>
+                                <div style="flex: 25%; color: grey;">
+                                    <img src="image/user.PNG" height="15px" alt=""> 29 &nbsp;
+
+                                </div>
+                            </div>
+
+                        </div>
+
+
+                        <div class="rightimg">
+                            <div style="position: relative;">
+                                <img src="/image/1.jpg" style="position: relative;  width: 100%;">
+                                <div class="quizlabel">
+                                    Quiz
+                                </div>
+                                <div class="month">
+                                    1 month ago
+                                </div>
+                            </div>
+                            <div>
+                                <h3>What is my ancestor</h3>
+                            </div>
+                            <div>
+                                <h4 style="margin-left: 40px; margin-right: 40px; color: grey;">
+                                    What is my aesthetic? Answer now and our aesthetic finder will tell you whether
+                                    you're glam, spoo...
+                                </h4>
+                            </div>
+                            <div style="display: flex; background-color:rgb(246 246 246); padding : 4px; ">
+                                <div style="flex: 25%; color: grey;">
+                                    <img src="image/list.PNG" height="15px" alt=""> 29 &nbsp;
+
+                                </div>
+                                <div style="flex: 25%; color: grey;">
+                                    <img src="image/view.PNG" height="15px" alt=""> 1970705 &nbsp;
+
+                                </div>
+                                <div style="flex: 25%; color: grey;">
+                                    <img src="image/thumb.PNG" height="15px" alt=""> 2000 &nbsp;
+
+                                </div>
+                                <div style="flex: 25%; color: grey;">
+                                    <img src="image/user.PNG" height="15px" alt=""> 29 &nbsp;
+
+                                </div>
+                            </div>
+                        </div>
+                        <br>
+                    </div>
+                    <div class="img">
+                        <div class="leftimg">
+                            <div style="position: relative;">
+                                <img src="/image/1.jpg" style="position: relative;  width: 100%;">
+                                <div class="quizlabel">
+                                    Quiz
+                                </div>
+                                <div class="month">
+                                    1 month ago
+                                </div>
+                            </div>
+                            <div>
+                                <h3>What is my ancestor</h3>
+                            </div>
+                            <div>
+                                <h4 style="margin-left: 40px; margin-right: 40px; color: grey;">
+                                    What is my aesthetic? Answer now and our aesthetic finder will tell you whether
+                                    you're glam, spoo...
+                                </h4>
+                            </div>
+                            <div style="display: flex; background-color:rgb(246 246 246); padding : 4px; ">
+                                <div style="flex: 25%; color: grey;">
+                                    <img src="image/list.PNG" height="15px" alt=""> 29 &nbsp;
+
+                                </div>
+                                <div style="flex: 25%; color: grey;">
+                                    <img src="image/view.PNG" height="15px" alt=""> 1970705 &nbsp;
+
+                                </div>
+                                <div style="flex: 25%; color: grey;">
+                                    <img src="image/thumb.PNG" height="15px" alt=""> 2000 &nbsp;
+
+                                </div>
+                                <div style="flex: 25%; color: grey;">
+                                    <img src="image/user.PNG" height="15px" alt=""> 29 &nbsp;
+
+                                </div>
+                            </div>
+
+                        </div>
+
+
+                        <div class="rightimg">
+                            <div style="position: relative;">
+                                <img src="/image/1.jpg" style="position: relative;  width: 100%;">
+                                <div class="quizlabel">
+                                    Quiz
+                                </div>
+                                <div class="month">
+                                    1 month ago
+                                </div>
+                            </div>
+                            <div>
+                                <h3>What is my ancestor</h3>
+                            </div>
+                            <div>
+                                <h4 style="margin-left: 40px; margin-right: 40px; color: grey;">
+                                    What is my aesthetic? Answer now and our aesthetic finder will tell you whether
+                                    you're glam, spoo...
+                                </h4>
+                            </div>
+                            <div style="display: flex; background-color:rgb(246 246 246); padding : 4px; ">
+                                <div style="flex: 25%; color: grey;">
+                                    <img src="image/list.PNG" height="15px" alt=""> 29 &nbsp;
+
+                                </div>
+                                <div style="flex: 25%; color: grey;">
+                                    <img src="image/view.PNG" height="15px" alt=""> 1970705 &nbsp;
+
+                                </div>
+                                <div style="flex: 25%; color: grey;">
+                                    <img src="image/thumb.PNG" height="15px" alt=""> 2000 &nbsp;
+
+                                </div>
+                                <div style="flex: 25%; color: grey;">
+                                    <img src="image/user.PNG" height="15px" alt=""> 29 &nbsp;
+
+                                </div>
+                            </div>
+                        </div>
+                        <br>
+                    </div>
+                    <div class="img">
+                        <div class="leftimg">
+                            <div style="position: relative;">
+                                <img src="/image/1.jpg" style="position: relative;  width: 100%;">
+                                <div class="quizlabel">
+                                    Quiz
+                                </div>
+                                <div class="month">
+                                    1 month ago
+                                </div>
+                            </div>
+                            <div>
+                                <h3>What is my ancestor</h3>
+                            </div>
+                            <div>
+                                <h4 style="margin-left: 40px; margin-right: 40px; color: grey;">
+                                    What is my aesthetic? Answer now and our aesthetic finder will tell you whether
+                                    you're glam, spoo...
+                                </h4>
+                            </div>
+                            <div style="display: flex; background-color:rgb(246 246 246); padding : 4px; ">
+                                <div style="flex: 25%; color: grey;">
+                                    <img src="image/list.PNG" height="15px" alt=""> 29 &nbsp;
+
+                                </div>
+                                <div style="flex: 25%; color: grey;">
+                                    <img src="image/view.PNG" height="15px" alt=""> 1970705 &nbsp;
+
+                                </div>
+                                <div style="flex: 25%; color: grey;">
+                                    <img src="image/thumb.PNG" height="15px" alt=""> 2000 &nbsp;
+
+                                </div>
+                                <div style="flex: 25%; color: grey;">
+                                    <img src="image/user.PNG" height="15px" alt=""> 29 &nbsp;
+
+                                </div>
+                            </div>
+
+                        </div>
+
+
+                        <div class="rightimg">
+                            <div style="position: relative;">
+                                <img src="/image/1.jpg" style="position: relative;  width: 100%;">
+                                <div class="quizlabel">
+                                    Quiz
+                                </div>
+                                <div class="month">
+                                    1 month ago
+                                </div>
+                            </div>
+                            <div>
+                                <h3>What is my ancestor</h3>
+                            </div>
+                            <div>
+                                <h4 style="margin-left: 40px; margin-right: 40px; color: grey;">
+                                    What is my aesthetic? Answer now and our aesthetic finder will tell you whether
+                                    you're glam, spoo...
+                                </h4>
+                            </div>
+                            <div style="display: flex; background-color:rgb(246 246 246); padding : 4px; ">
+                                <div style="flex: 25%; color: grey;">
+                                    <img src="image/list.PNG" height="15px" alt=""> 29 &nbsp;
+
+                                </div>
+                                <div style="flex: 25%; color: grey;">
+                                    <img src="image/view.PNG" height="15px" alt=""> 1970705 &nbsp;
+
+                                </div>
+                                <div style="flex: 25%; color: grey;">
+                                    <img src="image/thumb.PNG" height="15px" alt=""> 2000 &nbsp;
+
+                                </div>
+                                <div style="flex: 25%; color: grey;">
+                                    <img src="image/user.PNG" height="15px" alt=""> 29 &nbsp;
+
+                                </div>
+                            </div>
+                        </div>
+                        <br>
+                    </div>
+
+
+                </div>
+
+                <div class="right">
+                    <div style="display: block; max-width: 320px;  box-shadow: 0px 2px 4px 0px #dadada;width: 320px;">
+                        <a
+                            style="border-bottom: 1px solid rgb(219, 219, 219); font-weight: bold; width: 320px; font-size:26px ; padding: 5px; background-color: #ececec;display: block;">All</a>
+                        <a
+                            style="border-bottom: 1px solid rgb(219, 219, 219);  font-size: 26px;width: 320px; padding: 5px;display: block;background-color: white;">Quizzes</a>
+                        <a
+                            style="border-bottom: 1px solid rgb(219, 219, 219);  font-size: 26px;width: 320px; padding: 5px;display: block;background-color: white;">Stories</a>
+                        <a
+                            style="border-bottom: 1px solid rgb(219, 219, 219);  font-size: 26px;width: 320px; padding: 5px;display: block;background-color: white;">Top
+                            Quizzes</a>
+                        <a
+                            style="border-bottom: 1px solid rgb(219, 219, 219);  font-size: 26px;width: 320px; padding: 5px;display: block;background-color: white;">Waiting
+                            Room</a>
+                    </div>
+                    <!-- Quiz Categories -->
+                    <div style="margin-top: 50px;">
+                        <a style="font-size: 26px;width: 320px; padding: 5px;display: block;color: rgb(85, 84, 84);">Quiz
+                            Categories </a>
+                        <div class="checks">
+                            <a style=" font-weight: bold; background-color: rgb(236, 233, 233);">Women</a>
+                            <a>Men</a>
+                            <a>Couples</a>
+                            <a>Adults</a>
+                        </div>
+                        <div class="checks">
+                            <a>Kids</a>
+                            <a>Living</a>
+                            <a>Personality</a>
+                            <a>Hobby</a>
+                        </div>
+                        <div class="checks">
+                            <a>Relationship</a>
+                            <a>Animals</a>
+                            <a>Travel</a>
+                            <a>Film</a>
+                        </div>
+                        <div class="checks">
+                            <a>Politics</a>
+                            <a>History</a>
+                            <a>Sport</a>
+                            <a>Girls</a>
+                        </div>
+                        <div class="checks">
+                            <a>Trivia</a>
+                            <a>Health</a>
+                            <a>Teens</a>
+                            <a>food</a>
+                        </div>
+                        <div class="checks">
+                            <a>Musix</a>
+                            <a>Technology</a>
+                            <a>Education</a>
+
+                        </div>
+                        <div class="checks">
+                            <a>career</a>
+                            <a>Entertainment</a>
+                            <a>Other</a>
+
+                        </div>
+                    </div>
+                    <!--top quizzes-->
+                    <div style="margin-top: 45px;">
+                        <a style="font-size: 26px;width: 320px; padding: 5px;display: block;color: rgb(85, 84, 84);">Top
+                            Quizzes </a>
+                        <div class="checks topquiz">
+                            <img src="/image/topquizzes1.jpg" width="150px" alt="">
+                            <a style="width: auto;"> Whose Name is in Your Heart?</a>
+                        </div>
+                        <div class="checks topquiz">
+                            <img src="/image/topquizzes2.jpg" width="150px" alt="">
+                            <a style="width: auto;"> What Kind Of Music Do I Like?</a>
+                        </div>
+                        <div class="checks topquiz">
+                            <img src="/image/topquizzes3.jpg" width="150px" alt="">
+                            <a style="width: auto;"> Who Will Be My Future Husband?</a>
+                        </div>
+                        <div class="checks topquiz">
+                            <img src="/image/topquizzes4.jpg" width="150px" alt="">
+                            <a style="width: auto;"> What Animal Do I Look Like?</a>
+                        </div>
+
+                    </div>
+                    <!--Story geners-->
+                    <div style="margin-top: 50px;">
+                        <a style="font-size: 26px;width: 320px; padding: 5px;display: block;color: rgb(85, 84, 84);">Story
+                            Geners </a>
+                        <div class="checks" style="margin-top: 10px;">
+                            <a>Action</a>
+                            <a>Adventure</a>
+                            <a>Romance</a>
+                            <a>Long</a>
+                        </div>
+                        <div class="checks">
+                            <a>Historical</a>
+                            <a>Horror</a>
+                            <a>Humor</a>
+                            <a>Mystery</a>
+                        </div>
+                        <div class="checks">
+                            <a>Nonfiction</a>
+                            <a>Poetry</a>
+                            <a>Realistic</a>
+                            <a>Fantasy</a>
+                        </div>
+                        <div class="checks">
+                            <a>Fanfiction</a>
+                            <a>Thriller</a>
+                            <a>Challenge</a>
+
+                        </div>
+                        <div class="checks">
+                            <a>Sience Fiction</a>
+                            <a>Short notes</a>
+
+                        </div>
+
+
+                    </div>
+
+                    <!--Create Quiz-->
+                    <div style="margin-top: 50px;">
+                        <a
+                            style="padding: 10px 20px; font-weight: bold; font-size: 20px; background-color: #30c553; color: white; border-radius: 4px;">
+                            Create Quiz
+                        </a>
+                    </div>
+
+                    <!--Popular Tags-->
+                    <div style="margin-top: 50px;">
+                        <a style="font-size: 26px;width: 320px; padding: 5px;display: block;color: rgb(85, 84, 84);">Popular
+                            tags </a>
+                        <div class="checks" style="margin-top: 10px;">
+                            <a>Girls</a>
+                            <a>Friends</a>
+                            <a>Fun</a>
+                            <a>Teens</a>
+                        </div>
+                        <div class="checks">
+                            <a>Love</a>
+                            <a>Personality</a>
+                            <a>Food</a>
+                            <a>History</a>
+                        </div>
+                        <div class="checks">
+                            <a>Name</a>
+                            <a>Generator</a>
+                            <a>Character</a>
+                            <a>Lifestyle</a>
+                        </div>
+                        <div class="checks">
+                            <a>Religion</a>
+                            <a>Music</a>
+                            <a>Style</a>
+                            <a>Animals</a>
+                        </div>
+                        <div class="checks">
+                            <a>Knowledge</a>
+                            <a>pets</a>
+                            <a>Tradition</a>
+                            <a>Life</a>
+                        </div>
+                        <div class="checks">
+                            <a>Culture</a>
+                            <a>Literature</a>
+                            <a>Fashion</a>
+                            <a>Family</a>
+                        </div>
+
+                    </div>
+
+
+
+                </div>
+
+
+            </div>
+            <div class="footer">
+                <p>
+                    <a href="#"> Home</a>
+                    &nbsp;&nbsp;|&nbsp;&nbsp;
+                    <a href="#"> Advertise</a>
+                    &nbsp;&nbsp;|&nbsp;&nbsp;
+                    <a href="#"> Contact</a>
+                    &nbsp;&nbsp;|&nbsp;&nbsp;
+                    <a href="#"> About</a>
+                    &nbsp;&nbsp;|&nbsp;&nbsp;
+                    <a href="#"> Privacy Policy</a>
+                    &nbsp;&nbsp;|&nbsp;&nbsp;
+                    <a href="#"> Cookie Policy</a>
+                    &nbsp;&nbsp;
+
+                </p>
+                <p>
+                    <a href="#">quizony.com </a>© 2021. All Rights Reserved
+                </p>
+
+            </div>
+        </center>
+    </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <script>
+        function myFunction() {
+            var x = document.getElementById("myTopnav");
+            if (x.className === "topnav") {
+                x.className += " responsive";
+            } else {
+                x.className = "topnav";
+            }
+            var x = document.getElementById("drop");
+            if (x.className === "drop") {
+                x.className += " responsive";
+            } else {
+                x.className = "drop";
+            }
+        }
+    </script>
+
+    </div>
+
+
+</body>
+
+</html>

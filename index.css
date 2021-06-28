@@ -1,0 +1,86 @@
+
+.topnav {
+    overflow: hidden;
+    background-color: #f1f1f1;
+    max-width: 1150px;
+    
+  }
+  .categories{
+    display: none;
+    z-index: 0;
+    position: absolute; 
+    background-color: #f1f1f1;
+    min-width: 161px;
+  }
+  .categories:hover ,.catebut:hover + .categories{
+    display: block;
+    
+  }
+ 
+  
+  
+
+  
+  .topnav a {
+    float: left;
+    
+    color: #777;
+    text-align: center;
+    padding: 10px;
+    text-decoration: none;
+    font-size: 17px;
+  }
+  
+  .topnav a:hover {
+    background-color: #f1f1f1;
+    color: black;
+  }
+  
+  .topnav a.active:hover {
+    text-decoration:underline;
+    font-weight:bold;
+    color: white;
+  }
+  
+  .topnav .icon {
+    display: none;
+    text-decoration:underline;
+    font-weight:bold
+  }
+  .drop{
+    display: none;
+  }
+.dropdown{
+  width: 350px;
+  padding :10px
+}
+  .dropdown td, .dropdown th{
+    text-align: start;
+    padding: 0;
+    color: black;
+  }
+  @media screen and (max-width: 720px) {
+    .topnav a:not(:first-child) {display: none;}
+    .topnav a.icon {
+      float: right;
+      display: block;
+    }
+    .middlenav .catebut{
+      display: none;
+    }
+  }
+  
+  @media screen and (max-width: 720px) {
+    .topnav.responsive {position: relative;}
+    .topnav.responsive .icon {
+      position: absolute;
+      right: 0;
+      top: 0;
+    }
+    .drop.responsive{
+      
+      display: block;
+      text-align: left;
+    }
+  }
+  
